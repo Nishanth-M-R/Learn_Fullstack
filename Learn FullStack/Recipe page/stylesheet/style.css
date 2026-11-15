@@ -77,9 +77,9 @@ p{
     font-style: normal;
     color: #833D5A;
 }
-.recipe-ingredients-list{
-    padding-left: 15px;
-    gap: 20px;
+.recipe-ingredients-list > li{
+    padding: 5px 0;
+    gap: px;
 }
 hr{
     border: none;
@@ -123,5 +123,6 @@ hr{
 tr{
     border-bottom: 1px solid #E0E0E0;
     gap: 20px;
+    padding: 5px 0;
     margin: 10px 0;
 }
